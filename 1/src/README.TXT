@@ -1,0 +1,1 @@
+Hey, the main module is DesertExplorer.hs, please compile that one and run it supplying the necessary parameters.

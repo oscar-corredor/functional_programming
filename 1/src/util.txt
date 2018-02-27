@@ -1,0 +1,26 @@
+[[(Desert 0 0), (Desert 0 1), (Desert 0 2), (Desert 0 3), (Treasure 0 4)],
+ [(Desert 1 0), (Desert 1 1), (Desert 1 2), (Desert 1 3), (Water 1 4)],
+ [(Desert 2 0), (Desert 2 1), (Desert 2 2), (Desert 2 3), (Portal 2 4)]]
+findClosest  0 0 0 [] (Treasure 0 0) [[(Desert 0 0), (Desert 0 1), (Desert 0 2), (Desert 0 3), (Treasure 0 4)], [(Desert 1 0), (Desert 1 1), (Desert 1 2), (Desert 1 3), (Water 1 4)], [(Desert 2 0), (Desert 2 1), (Desert 2 2), (Desert 2 3), (Portal 2 4)]]
+
+## With some lava
+
+[[(Desert 0 0), (Desert 0 1), (Desert 0 2), (Lava 0 3), (Treasure 0 4)],
+ [(Desert 1 0), (Desert 1 1), (Desert 1 2), (Lava 1 3), (Water 1 4)],
+ [(Desert 2 0), (Desert 2 1), (Desert 2 2), (Desert 2 3), (Portal 2 4)]]
+findClosest  0 0 0 [] (Treasure 0 0) [[(Desert 0 0 False), (Desert 0 1 False), (Desert 0 2 False), (Lava 0 3 False), (Treasure 0 4 False)], [(Desert 1 0 False), (Desert 1 1 False), (Desert 1 2 False), (Lava 1 3 False), (Water 1 4 False)], [(Desert 2 0 False), (Desert 2 1 False), (Desert 2 2 False), (Desert 2 3 False), (Portal 2 4 False)]]
+
+
+[[(Desert 0 0), (Desert 0 1), (Desert 0 2), (Desert 0 3), (Desert 0 4)],
+ [(Desert 1 0), (Treasure 1 1), (Desert 1 2), (Desert 1 3), (Desert 1 4)],
+ [(Desert 2 0), (Desert 2 1), (Desert 2 2), (Desert 2 3), (Desert 2 4)]]
+findClosest  3 1 0 [] (Treasure 0 0) [[(Desert 0 0), (Desert 0 1), (Desert 0 2), (Desert 0 3), (Desert 0 4)], [(Desert 1 0), (Treasure 1 1), (Desert 1 2), (Desert 1 3), (Desert 1 4)], [(Desert 2 0), (Desert 2 1), (Desert 2 2), (Desert 2 3), (Desert 2 4)]]
+
+
+
+
+updateVisitedTiles 0 3 [[(Desert 0 0), (Desert 0 1), (Desert 0 2), (Desert 0 3), (Treasure 0 4)], [(Desert 1 0), (Desert 1 1), (Desert 1 2), (Desert 1 3), (Water 1 4)], [(Desert 2 0), (Desert 2 1), (Desert 2 2), (Desert 2 3), (Portal 2 4)]]
+
+
+[[(0,0.2001763),(1,0.4042127),(2,0.6147452),(3,0.47423)
+[[(0,0.2001763),(1,0.4042127),(2,0.6147452),(3,0.47423)
