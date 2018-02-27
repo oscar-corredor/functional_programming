@@ -1,6 +1,6 @@
 # functional_programming
 In this repository you will find two projects I developed for the course Functional Programming at Vrije Universiteit Brussel during the first semester of the 17-18 academic year.
-Each folders contains the assignment specification and the code developed.
+Each folder contains the assignment specification and the code developed.
 
 # Conclusions
 
